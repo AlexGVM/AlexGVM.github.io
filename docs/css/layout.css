@@ -346,7 +346,7 @@ ul#nav li.current a { color: #F06000; }
   	-webkit-animation: css 2s ease;
 }
 .cssH { /*css*/
-  	width: 30%;
+  	width: 70%;
   	-moz-animation: cssH 2s ease;
   	-webkit-animation: cssH 2s ease;
 }
@@ -356,7 +356,7 @@ ul#nav li.current a { color: #F06000; }
   	-webkit-animation: html5 2s ease;
 }
 .html { /*HTML*/
-  	width: 60%;
+  	width: 70%;
   	-moz-animation: html 2s ease;
   	-webkit-animation: html 2s ease;
 }
@@ -386,7 +386,7 @@ ul#nav li.current a { color: #F06000; }
 }
 @-moz-keyframes html {
   0%   { width: 0px;  }
-  100% { width: 60%;  }
+  100% { width: 70%;  }
 }
 @-moz-keyframes wordpress {
   0%   { width: 0px;  }
@@ -398,7 +398,7 @@ ul#nav li.current a { color: #F06000; }
 }
 @-moz-keyframes cssH {
   0%   { width: 0px;  }
-  100% { width: 30%;  }
+  100% { width: 70%;  }
 }
 @-moz-keyframes html5 {
   0%   { width: 0px;  }
@@ -436,7 +436,7 @@ ul#nav li.current a { color: #F06000; }
 }
 @-webkit-keyframes cssH {
   0%   { width: 0px;  }
-  100% { width: 30%;  }
+  100% { width: 70%;  }
 }
 @-webkit-keyframes html5 {
   0%   { width: 0px;  }
@@ -444,7 +444,7 @@ ul#nav li.current a { color: #F06000; }
 }
 @-webkit-keyframes html {
   0%   { width: 0px;  }
-  100% { width: 60%;  }
+  100% { width: 70%;  }
 }
 @-webkit-keyframes jquery {
   0%   { width: 0px;  }
