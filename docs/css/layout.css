@@ -330,7 +330,7 @@ ul#nav li.current a { color: #F06000; }
   	-moz-animation: photoshop 2s ease;
   	-webkit-animation: photoshop 2s ease;
 }
-.angular { /*C#*/
+.angular { /*angular*/
    width: 50%;
    -moz-animation: angular 2s ease;
    -webkit-animation: angular 2s ease;
