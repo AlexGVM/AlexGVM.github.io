@@ -330,6 +330,11 @@ ul#nav li.current a { color: #F06000; }
   	-moz-animation: photoshop 2s ease;
   	-webkit-animation: photoshop 2s ease;
 }
+.angular { /*C#*/
+   width: 50%;
+   -moz-animation: angular 2s ease;
+   -webkit-animation: angular 2s ease;
+}
 .illustrator { /*Vegas Pro 18*/
   	width: 90%;
   	-moz-animation: illustrator 2s ease;
@@ -360,8 +365,8 @@ ul#nav li.current a { color: #F06000; }
   	-moz-animation: html5 2s ease;
   	-webkit-animation: html5 2s ease;
 }
-.jquery { /*C++*/
-  	width: 30%;
+.jquery { /*jquery*/
+  	width: 50%;
   	-moz-animation: jquery 2s ease;
   	-webkit-animation: jquery 2s ease;
 }
@@ -375,16 +380,15 @@ ul#nav li.current a { color: #F06000; }
    -moz-animation: javascript 2s ease;
    -webkit-animation: javascript 2s ease;
 }
-.assembly { /*assembly*/
-  	width: 40%;
-  	-moz-animation: assembly 2s ease;
-  	-webkit-animation: assembly 2s ease;
-}
 
 @-moz-keyframes photoshop {
   0%   { width: 0px;  }
   100% { width: 70%;  }
 }
+@-moz-keyframes angular {
+   0%   { width: 0px;  }
+   100% { width: 50%;  }
+ }
 @-moz-keyframes illustrator {
   0%   { width: 0px;  }
   100% { width: 90%;  }
@@ -415,15 +419,11 @@ ul#nav li.current a { color: #F06000; }
 }
 @-moz-keyframes jquery {
   0%   { width: 0px;  }
-  100% { width: 30%;  }
+  100% { width: 50%;  }
 }
 @-moz-keyframes java {
   0%   { width: 0px;  }
   100% { width: 75%;  }
-}
-@-moz-keyframes assembly {
-  0%   { width: 0px;  }
-  100% { width: 40%;  }
 }
 
 
@@ -431,6 +431,10 @@ ul#nav li.current a { color: #F06000; }
   0%   { width: 0px;  }
   100% { width: 70%;  }
 }
+@-webkit-keyframes angular {
+   0%   { width: 0px;  }
+   100% { width: 50%;  }
+ }
 @-webkit-keyframes illustrator {
   0%   { width: 0px;  }
   100% { width: 90%;  }
@@ -461,16 +465,13 @@ ul#nav li.current a { color: #F06000; }
 }
 @-webkit-keyframes jquery {
   0%   { width: 0px;  }
-  100% { width: 30%;  }
+  100% { width: 50%;  }
 }
 @-webkit-keyframes java {
   0%   { width: 0px;  }
   100% { width: 75%;  }
 }
-@-webkit-keyframes assembly {
-  0%   { width: 0px;  }
-  100% { width: 40%;  }
-}
+
 
 /* ------------------------------------------------------------------ */
 /* e. Portfolio Section
