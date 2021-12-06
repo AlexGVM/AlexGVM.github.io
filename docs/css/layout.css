@@ -52,7 +52,7 @@ header .banner {
    vertical-align: middle;
    margin: 0 auto;
    width: 85%;
-   padding-bottom: 30px;s
+   padding-bottom: 30px;
    text-align: center;
 }
 
@@ -330,33 +330,28 @@ ul#nav li.current a { color: #F06000; }
   	-moz-animation: photoshop 2s ease;
   	-webkit-animation: photoshop 2s ease;
 }
-.angular { /*angular*/
-   width: 50%;
-   -moz-animation: angular 2s ease;
-   -webkit-animation: angular 2s ease;
-}
 .illustrator { /*Vegas Pro 18*/
   	width: 90%;
   	-moz-animation: illustrator 2s ease;
   	-webkit-animation: illustrator 2s ease;
 }
 .wordpress { /*SQL*/
-  	width: 85%;
+  	width: 90%;
   	-moz-animation: wordpress 2s ease;
   	-webkit-animation: wordpress 2s ease;
 }
 .css { /*Python*/
-  	width: 75%;
+  	width: 80%;
   	-moz-animation: css 2s ease;
   	-webkit-animation: css 2s ease;
 }
 .cssH { /*css*/
-  	width: 70%;
+  	width: 65%;
   	-moz-animation: cssH 2s ease;
   	-webkit-animation: cssH 2s ease;
 }
 .html { /*HTML*/
-   width: 70%;
+   width: 65%;
    -moz-animation: html 2s ease;
    -webkit-animation: html 2s ease;
 }
@@ -371,7 +366,7 @@ ul#nav li.current a { color: #F06000; }
   	-webkit-animation: jquery 2s ease;
 }
 .java { /*java*/
-  	width: 75%;
+  	width: 70%;
   	-moz-animation: java 2s ease;
   	-webkit-animation: java 2s ease;
 }
@@ -385,17 +380,13 @@ ul#nav li.current a { color: #F06000; }
   0%   { width: 0px;  }
   100% { width: 70%;  }
 }
-@-moz-keyframes angular {
-   0%   { width: 0px;  }
-   100% { width: 50%;  }
- }
 @-moz-keyframes illustrator {
   0%   { width: 0px;  }
   100% { width: 90%;  }
 }
 @-moz-keyframes html {
   0%   { width: 0px;  }
-  100% { width: 70%;  }
+  100% { width: 65%;  }
 }
 @-moz-keyframes javascript {
    0%   { width: 0px;  }
@@ -403,15 +394,15 @@ ul#nav li.current a { color: #F06000; }
  }
 @-moz-keyframes wordpress {
   0%   { width: 0px;  }
-  100% { width: 85%;  }
+  100% { width: 90%;  }
 }
 @-moz-keyframes css {
   0%   { width: 0px;  }
-  100% { width: 75%;  }
+  100% { width: 80%;  }
 }
 @-moz-keyframes cssH {
   0%   { width: 0px;  }
-  100% { width: 70%;  }
+  100% { width: 65%;  }
 }
 @-moz-keyframes html5 {
   0%   { width: 0px;  }
@@ -423,7 +414,7 @@ ul#nav li.current a { color: #F06000; }
 }
 @-moz-keyframes java {
   0%   { width: 0px;  }
-  100% { width: 75%;  }
+  100% { width: 70%;  }
 }
 
 
@@ -431,21 +422,17 @@ ul#nav li.current a { color: #F06000; }
   0%   { width: 0px;  }
   100% { width: 70%;  }
 }
-@-webkit-keyframes angular {
-   0%   { width: 0px;  }
-   100% { width: 50%;  }
- }
 @-webkit-keyframes illustrator {
   0%   { width: 0px;  }
   100% { width: 90%;  }
 }
 @-webkit-keyframes wordpress {
   0%   { width: 0px;  }
-  100% { width: 85%;  }
+  100% { width: 90%;  }
 }
 @-webkit-keyframes css {
   0%   { width: 0px;  }
-  100% { width: 75%;  }
+  100% { width: 80%;  }
 }
 @-webkit-keyframes javascript {
    0%   { width: 0px;  }
@@ -453,7 +440,7 @@ ul#nav li.current a { color: #F06000; }
 }
 @-webkit-keyframes cssH {
   0%   { width: 0px;  }
-  100% { width: 70%;  }
+  100% { width: 65%;  }
 }
 @-webkit-keyframes html5 {
   0%   { width: 0px;  }
@@ -461,7 +448,7 @@ ul#nav li.current a { color: #F06000; }
 }
 @-webkit-keyframes html {
   0%   { width: 0px;  }
-  100% { width: 70%;  }
+  100% { width: 65%;  }
 }
 @-webkit-keyframes jquery {
   0%   { width: 0px;  }
@@ -469,7 +456,7 @@ ul#nav li.current a { color: #F06000; }
 }
 @-webkit-keyframes java {
   0%   { width: 0px;  }
-  100% { width: 75%;  }
+  100% { width: 70%;  }
 }
 
 
